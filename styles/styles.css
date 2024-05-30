@@ -1,0 +1,39 @@
+body {
+    padding: 1px;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    background-color: #283d82; 
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+.form-box {
+    padding: 1px;
+    border-radius: 5px;
+    background-color: bisque;
+    box-shadow: 10px 10px 15px gainsboro, -10px -10px 15px
+}
+
+.form-box button {
+    background-color: rgb(208, 208, 240);
+    transition-duration: 2s;
+}
+.form-box button:hover{ 
+  transform: translateY(100px); 
+
+
+}
+
+
+
+.text-center {
+    text-align: center;
+  }
+  
+   
